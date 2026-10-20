@@ -1,0 +1,36 @@
+# AUTOSAR HLD Document Analysis Assistant - Configuration
+
+app:
+  name: "AUTOSAR HLD Analysis Assistant"
+  version: "0.5.0"
+  phase: "Phase 4 & 5 - Rule Checks & AI Evaluation Studio"
+  description: "AI-powered architectural review assistant for AUTOSAR High-Level Design documents."
+
+llm:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  temperature: 0.2
+  max_output_tokens: 2048
+  api_key_env_var: "GEMINI_API_KEY"
+
+parser:
+  max_file_size_mb: 25
+  supported_extensions:
+    - ".pdf"
+
+chunking:
+  default_chunk_size: 120
+  default_chunk_overlap: 25
+  deduplicate_repeated_headers: true
+
+analysis:
+  # AUTOSAR rule categories to inspect in subsequent phases
+  check_categories:
+    - "Software Component (SWC) Architecture"
+    - "Port & Interface Matching (Sender-Receiver, Client-Server)"
+    - "Runnable Entity & RTE Event Mapping"
+    - "BSW Stack & Service Dependencies"
+    - "Safety & ASIL Traceability"
+
+output:
+  reports_dir: "reports"

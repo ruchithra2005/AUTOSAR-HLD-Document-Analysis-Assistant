@@ -1,0 +1,13 @@
+# Local secrets and credentials
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Large local artifacts
+*.log
