@@ -10,4 +10,6 @@ __pycache__/
 .mypy_cache/
 
 # Large local artifacts
-*.log
+*.logdata/input_docs/sample_autosar_hld.pdf
+demo/*.mp4
+data/input_docs/sample_autosar_hld.pdf
