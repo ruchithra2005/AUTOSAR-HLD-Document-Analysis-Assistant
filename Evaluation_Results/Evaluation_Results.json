@@ -1,0 +1,215 @@
+{
+  "retrieval_method": "Truncated SVD (4 components)",
+  "k": 3,
+  "threshold": 0.15,
+  "total_queries": 10,
+  "mean_precision_at_k": 0.4667,
+  "mean_recall_at_k": 1.0,
+  "mean_f1_at_k": 0.62,
+  "mrr": 0.95,
+  "mean_citation_accuracy": 0.4667,
+  "query_results": [
+    {
+      "query_id": "Q01_PRIMARY_SWC",
+      "query_text": "What is the primary Software Component defined in this HLD and what is its type?",
+      "k": 3,
+      "retrieved_pages": [
+        1,
+        2,
+        3
+      ],
+      "expected_pages": [
+        1
+      ],
+      "precision_at_k": 0.3333,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.5,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.3333,
+      "accepted_chunks_count": 2
+    },
+    {
+      "query_id": "Q02_CONNECTED_SWCS",
+      "query_text": "Which other SWCs are connected to VehicleSpeedManagement_SWC?",
+      "k": 3,
+      "retrieved_pages": [
+        1,
+        3,
+        2
+      ],
+      "expected_pages": [
+        1
+      ],
+      "precision_at_k": 0.3333,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.5,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.3333,
+      "accepted_chunks_count": 1
+    },
+    {
+      "query_id": "Q03_BSW_DEPENDENCIES",
+      "query_text": "What BSW modules and communication stack layers are specified as dependencies?",
+      "k": 3,
+      "retrieved_pages": [
+        1,
+        3,
+        2
+      ],
+      "expected_pages": [
+        1
+      ],
+      "precision_at_k": 0.3333,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.5,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.3333,
+      "accepted_chunks_count": 2
+    },
+    {
+      "query_id": "Q04_PPORT_VEHICLE_SPEED",
+      "query_text": "What is the P-Port ppVehicleSpeed, its interface type, and data element?",
+      "k": 3,
+      "retrieved_pages": [
+        2,
+        2,
+        1
+      ],
+      "expected_pages": [
+        2
+      ],
+      "precision_at_k": 0.6667,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.8,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.6667,
+      "accepted_chunks_count": 2
+    },
+    {
+      "query_id": "Q05_RPORTS_SPECIFICATION",
+      "query_text": "What R-Ports are defined in the document and what interfaces do they require?",
+      "k": 3,
+      "retrieved_pages": [
+        2,
+        3,
+        1
+      ],
+      "expected_pages": [
+        2
+      ],
+      "precision_at_k": 0.3333,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.5,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.3333,
+      "accepted_chunks_count": 3
+    },
+    {
+      "query_id": "Q06_RUNNABLE_CALCULATE_SPEED",
+      "query_text": "How is Runnable RE_CalculateSpeed triggered and which OS Task is it mapped to?",
+      "k": 3,
+      "retrieved_pages": [
+        3,
+        2,
+        2
+      ],
+      "expected_pages": [
+        2
+      ],
+      "precision_at_k": 0.6667,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.8,
+      "reciprocal_rank": 0.5,
+      "first_relevant_rank": 2,
+      "citation_accuracy": 0.6667,
+      "accepted_chunks_count": 3
+    },
+    {
+      "query_id": "Q07_RUNNABLE_EVENTS",
+      "query_text": "What triggers are specified for RE_VSM_Init and RE_DiagEventUpdate?",
+      "k": 3,
+      "retrieved_pages": [
+        2,
+        2,
+        1
+      ],
+      "expected_pages": [
+        2
+      ],
+      "precision_at_k": 0.6667,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.8,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.6667,
+      "accepted_chunks_count": 2
+    },
+    {
+      "query_id": "Q08_SAFETY_ASIL_E2E",
+      "query_text": "What ISO 26262 ASIL rating and E2E protection profile are required?",
+      "k": 3,
+      "retrieved_pages": [
+        3,
+        1,
+        2
+      ],
+      "expected_pages": [
+        1,
+        3
+      ],
+      "precision_at_k": 0.6667,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.8,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.6667,
+      "accepted_chunks_count": 2
+    },
+    {
+      "query_id": "Q09_DIAGNOSTIC_MONITORING",
+      "query_text": "Under what condition is Dem_SetEventStatus called?",
+      "k": 3,
+      "retrieved_pages": [
+        3,
+        1,
+        2
+      ],
+      "expected_pages": [
+        3
+      ],
+      "precision_at_k": 0.3333,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.5,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.3333,
+      "accepted_chunks_count": 1
+    },
+    {
+      "query_id": "Q10_VERIFICATION_CHECKLIST_GAP",
+      "query_text": "Which checklist item is marked as unverified or under review?",
+      "k": 3,
+      "retrieved_pages": [
+        3,
+        1,
+        2
+      ],
+      "expected_pages": [
+        3
+      ],
+      "precision_at_k": 0.3333,
+      "recall_at_k": 1.0,
+      "f1_at_k": 0.5,
+      "reciprocal_rank": 1.0,
+      "first_relevant_rank": 1,
+      "citation_accuracy": 0.3333,
+      "accepted_chunks_count": 2
+    }
+  ],
+  "notes": "Evaluated on 10 verified AUTOSAR HLD queries at K=3 with threshold=0.15. Relevance is grounded in source page targets verified against data/input_docs/sample_autosar_hld.pdf."
+}
